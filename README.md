@@ -12,3 +12,9 @@
 你好
 
 ### git
+
+### 命名规范
+
+1. 有语义
+2. var student = {};
+3. student.age
