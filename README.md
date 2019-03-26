@@ -9,4 +9,6 @@
 5. undefined
 6. 对象
 
+你好
+
 ### git
