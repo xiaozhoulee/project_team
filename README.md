@@ -5,3 +5,5 @@
 * soft：必要的软件安装包和程序包
 * Q&A：测试题与答案
 * course:课程内容和计划授课内容
+* document:项目部正式文档
+* equipment:项目部设备
