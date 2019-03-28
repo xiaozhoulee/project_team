@@ -9,7 +9,7 @@
 * ES2015
 * node,npm基础
 * http-server创建后台服务器
-* vue-cli创建项目
+* vue-cli创建项目：npm install -g @vue/cli
 * 单文件组件
 * 路由
 * axios前后台数据交互

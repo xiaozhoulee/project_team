@@ -14,3 +14,13 @@
 
 ### 每个人的github开源项目链接
 
+
+### 项目部4月份学习任务
+
+1. 22到测试题
+2. 熟悉ES2015语法
+3. 使用npm下载：jQuery，vue，http-server(http-server需要全局安装 -g)
+4. 使用http-server启动本地服务器
+5. 在github上创建一个自己的项目，项目地址发送至王浩
+6. 使用vue-cli创建一个vue项目
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const fun = function(n){
+        //     return n * n
+        // }    
+
+        // const fun = n => n * n
+        
+
+        // var result = fun(3);
+        // console.log(result);
+
+        //箭头函数中的this
+        const cat = {
+            name : "喵喵",
+            shout : function(){
+                setTimeout(() => {
+                    console.log("我是"+ this.name)
+                },2000)
+            }
+        }
+
+        cat.shout();
+
+
+
+
+    </script>
+</body>
+</html>
