@@ -36,7 +36,7 @@
 
 ### 视频地址
 
-* 网页重构：http://edu.qhdboyi.com/class-online/5885c35fdb4d94012d075a01
+* 网页重构：[视频地址](http://edu.qhdboyi.com/class-online/5885c35fdb4d94012d075a01)
 * javascript基础（智能社视频）
 * git版本控制工具的使用与团队协作方法
 * node与npm基础
