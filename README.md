@@ -24,15 +24,31 @@
 * docs：项目开发文档
 * plan：开发与学习计划
 
-### 每个人的github开源项目链接
+### 项目部每个人的github开源项目链接
 
 |序号|名字|
 |----|----|
-|1|[王浩](https://github.com/xiaozhoulee/project_team)|
-|2|[丁凯](https://github.com/xiaozhoulee/project_team)|
-|2|[丁凯](https://github.com/xiaozhoulee/project_team)|
-|2|[丁凯](https://github.com/xiaozhoulee/project_team)|
-|2|[丁凯](https://github.com/xiaozhoulee/project_team)|
+|1|[王博辉](https://github.com/wbh521lhz/-.git)|
+|2|[丁凯](https://github.com/ding139725/dingkai_.git)|
+|3|[王浩](https://github.com/342268316/wanghaocase.git)|
+|4|[郑浩然](https://github.com/zhr13833510179/-)|
+|5|[廖烽](https://github.com/jiaowofengbaba/LiaoFeng-.git)|
+|6|[王春鑫](https://github.com/2650181298/planFolder.git)|
+|7|[马瑞阳](https://github.com/supreyang/-.git)|
+|8|[张海](https://github.com/WeiZhiTaiYi/benbi.git)|
+|9|[马圣秦](https://github.com/mashengqin/Learning-materials-of-Ma-Shengqin-s-project-department.git)|
+|10|[张润哲](https://github.com/ZhangRunzhe-Sang/Project-Department)|
+|11|[莫鑫源](https://github.com/yn22638/Rising-road.git)|
+|12|[潘德新](https://github.com/pandexin/prout.git)|
+|13|[王崇昂](https://github.com/wang-xian-sheng/BJ_wca.git)|
+|14|[张天庆](https://github.com/WenduiGui/22daoti)|
+|15|[杨磊](https://github.com/yanglei0001/project_team-Lei)|
+|16|[刘轩睿](https://github.com/Yan-Yan0129/ZNB.git)|
+|17|[王芷烽](https://github.com/2073252416/Wang-Zhifeng-s-Learning-Documents/tree/master)|
+|18|[周昕壮](https://github.com/xinXinZKA/xX_project)|
+|19|[贾海港](https://github.com/HGjia02/jia.storehouse.git)|
+|20|[周宏政](https://github.com/zhz17531379325/-)|
+|21|[高浩博](http://github.com/GoHoBo/notes)|
 
 ### 视频地址
 
