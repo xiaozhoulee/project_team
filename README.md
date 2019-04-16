@@ -39,13 +39,13 @@
 * 练习文件不要放在根目录
 * 所有自己练习的代码，都放在自己的项目中。
 
-### 项目部每个人的github开源项目链接
+### 项目部成员个人github开源项目链接
 
 |序号|名字|
 |----|----|
 |1|[王博辉](https://github.com/wbh521lhz/-.git)|
 |2|[丁凯](https://github.com/ding139725/dingkai_.git)|
-|3|[王浩](https://github.com/342268316/wanghaocase.git)|
+|3|[王浩](https://github.com/342268316/Project-Department-Documents.git)|
 |4|[郑浩然](https://github.com/zhr13833510179/-)|
 |5|[廖烽](https://github.com/jiaowofengbaba/LiaoFeng-.git)|
 |6|[王春鑫](https://github.com/2650181298/planFolder.git)|
@@ -62,7 +62,7 @@
 |17|[王芷烽](https://github.com/2073252416/Wang-Zhifeng-s-Learning-Documents/tree/master)|
 |18|[周昕壮](https://github.com/xinXinZKA/xX_project)|
 |19|[贾海港](https://github.com/HGjia02/jia.storehouse.git)|
-|20|[周宏政](https://github.com/zhz17531379325/-)|
+|20|[周宏政](https://github.com/zhz17531379325/project_team)|
 |21|[高浩博](http://github.com/GoHoBo/notes)|
 
 ### 视频地址
