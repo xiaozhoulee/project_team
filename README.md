@@ -39,8 +39,7 @@
 * 练习文件不要放在根目录
 * 所有自己练习的代码，都放在自己的项目中。
 
-### 项目部成员个人github开源项目链接
-
+### 项目部成员个人GitHub开源项目链接
 |序号|名字|
 |----|----|
 |1|[王博辉](https://github.com/wbh521lhz/-.git)|
@@ -76,3 +75,11 @@
 * egg框架搭建web项目服务器端
 * mysql数据库
 * sequelize框架（orm框架）
+
+### 项目部小组GitHub开源项目链接
+|小组|组长|
+|----|----|
+|一组|[王博辉](https://github.com/wbh521lhz/one.git)|
+|二组|[王春鑫](https://github.com/2650181298/Safe-Deposit-Box.git)|
+|三组|[张天庆](https://github.com/WenduiGui/strongbox)|
+|四组|[郑浩然](https://github.com/zhr13833510179/preject)|
