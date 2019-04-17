@@ -1,6 +1,13 @@
 # Egg
 
+### http协议
+1. 浏览器发送请求，服务器响应数据。
+2. 常用的请求方法：get（查询）、post（添加）、put（修改）、delete（删除）
+3. 在chrome调试工具中查看请求与响应的数据。
+
 ### 创建Egg项目
+1. 创建egg项目：npm init egg --type=simple
+2. 
 
 ### 使用模板字符串显示html页面
 
