@@ -81,5 +81,5 @@
 |----|----|
 |一组|[王博辉](https://github.com/wbh521lhz/one.git)|
 |二组|[王春鑫](https://github.com/2650181298/Safe-Deposit-Box.git)|
-|三组|[张天庆](https://github.com/WenduiGui/strongbox)|
+|三组|[张天庆](https://github.com/WenduiGui/StrongboxProject)|
 |四组|[郑浩然](https://github.com/zhr13833510179/preject)|
