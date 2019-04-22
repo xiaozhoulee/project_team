@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>显示列表</h1>
+    <h3>水果列表</h3>
+    <ul>
+        {% for item in fruits %}
+        <li>{{item}}</li>
+        {% else %}
+        <li>列表数据为空</li>
+        {% endfor %}
+    </ul>
+
+    <h3>运动列表</h3>
+    <ul>
+        {% for item in sposts %}
+        <li>{{item}}</li>
+        {% else %}
+        <li>列表数据为空</li>
+        {% endfor %}
+    </ul>
+    
+</body>
+</html>

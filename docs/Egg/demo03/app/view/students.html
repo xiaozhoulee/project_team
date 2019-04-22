@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>学生列表</h1>
+    <table>
+        {% for student in studentsData %}
+        <tr>
+            <!-- loop.index可以获取序号 -->
+            <td>{{loop.index}}</td>
+            <td>{{student.name}}</td>
+            <td>{{student.age}}</td>
+        </tr>
+        {% endfor %}
+        <tr></tr>
+    </table>
+</body>
+</html>

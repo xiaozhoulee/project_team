@@ -1,0 +1,1 @@
+alert("写在public中的js")

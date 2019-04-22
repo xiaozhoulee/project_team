@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .menu li{
+            list-style: none;
+            float: left;
+            width:80px;
+            height: 30px;
+            border:1px solid red;
+            text-align: center;
+            line-height: 30px;
+        }
+        .clear{
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="/">首页</a></li>
+        <li><a href="/students">学生</a></li>
+        <li><a href="/teachers">教师</a></li>
+    </ul>
+    <div class="clear"></div>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

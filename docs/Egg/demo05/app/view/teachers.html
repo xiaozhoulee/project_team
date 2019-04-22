@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>教师列表</h1>
+<ul>
+    {% for item in teachers %}
+    <li>{{item}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

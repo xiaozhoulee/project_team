@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>判断是否登录</h1>
+    {% if user.isLogin %}
+    <p>欢迎{{user.name}}</p>
+    {% else %}
+    <p>请登录</p>
+    {% endif %}
+</body>
+</html>
