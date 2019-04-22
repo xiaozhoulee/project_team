@@ -50,6 +50,7 @@ config.view = {
 3. 在app中创建view目录
 4. 编写html文件
 5. 渲染页面：await this.ctx.render('index')
+6. [文档地址](https://nunjucks.bootcss.com/templating.html)
 
 ### 模板语法
 1. 绑定数据
