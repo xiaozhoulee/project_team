@@ -77,9 +77,10 @@
 * sequelize框架（orm框架）
 
 ### 项目部小组GitHub开源项目链接
-|小组|组长|
-|----|----|
-|一组|[王博辉](https://github.com/wbh521lhz/one.git)|
-|二组|[王春鑫](https://github.com/2650181298/Safe-Deposit-Box.git)|
-|三组|[张天庆](https://github.com/WenduiGui/StrongboxProject)|
-|四组|[郑浩然](https://github.com/zhr13833510179/preject)|
+|小组|组长|下一个项目完成日期（eggjs保险箱）|
+|----|----|----|
+|一组|[王博辉](https://github.com/wbh521lhz/one.git)|待定|
+|二组|[王春鑫](https://github.com/2650181298/Safe-Deposit-Box.git)|待定|
+|三组|[张天庆](https://github.com/WenduiGui/StrongboxProject)|待定|
+|四组|[郑浩然](https://github.com/zhr13833510179/preject)|待定|
+|部长|[丁凯、王浩](https://github.com/ding139725/First_project.git)|待定|
