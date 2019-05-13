@@ -38,7 +38,16 @@
 * .gitignore必备，方式上传node_modules目录
 * 练习文件不要放在根目录
 * 所有自己练习的代码，都放在自己的项目中。
+### 部长职责规划
+丁凯：
+1. 设备管理
+2. 小组项目管理与检查
+3. 个人扣分情况记录
 
+王浩：
+1. 规章制度管理
+2. 个人笔记管理与检查
+3. 活动外出请假报备
 ### 项目部成员个人GitHub开源项目链接
 |序号|名字|
 |----|----|
@@ -57,7 +66,7 @@
 |13|[王崇昂](https://github.com/wang-xian-sheng/BJ_wca.git)|
 |14|[张天庆](https://github.com/WenduiGui/22daoti)|
 |15|[杨磊](https://github.com/yanglei0001/project_team-Lei)|
-|16|[刘轩睿](https://github.com/Yan-Yan0129/ZNB.git)|
+|16|[刘轩睿](https://github.com/Yan-Yan0129/XMB-demo.git)|
 |17|[王芷烽](https://github.com/2073252416/Wang-Zhifeng-s-Learning-Documents/tree/master)|
 |18|[周昕壮](https://github.com/xinXinZKA/xX_project)|
 |19|[贾海港](https://github.com/HGjia02/jia.storehouse.git)|
