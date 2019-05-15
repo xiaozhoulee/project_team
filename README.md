@@ -57,7 +57,7 @@
 |4|[郑浩然](https://github.com/zhr13833510179/-)|
 |5|[廖烽](https://github.com/jiaowofengbaba/liaofeng.git)|
 |6|[王春鑫](https://github.com/2650181298/planFolder.git)|
-|7|[马瑞阳](https://github.com/supreyang/-.git)|
+|7|[马瑞阳（5.14日退部）](https://github.com/supreyang/-.git)|
 |8|[张海](https://github.com/WeiZhiTaiYi/benbi.git)|
 |9|[马圣秦](https://github.com/mashengqin/Learning-materials-of-Ma-Shengqin-s-project-department.git)|
 |10|[张润哲](https://github.com/ZhangRunzhe-Sang/Project-Department)|
@@ -88,8 +88,9 @@
 ### 项目部小组GitHub开源项目链接
 |小组|组长|保险箱（vue版）|保险箱（egg版）|
 |----|----|----|----|
-|一组|王博辉|[项目地址失效](https://github.com/wbh521lhz/egg_node.git)|[链接](https://github.com/wbh521lhz/egg.git)|
+|一组|王博辉|[链接](https://github.com/wbh521lhz/egg_node.git)|[链接](https://github.com/wbh521lhz/egg.git)|
 |二组|王春鑫|[链接](https://github.com/2650181298/Safe-Deposit-Box.git)|[链接](https://github.com/2650181298/Egg_Safe-Deposit-Box.git)
 |三组|张天庆|[链接](https://github.com/WenduiGui/StrongboxProject)|[链接](https://github.com/WenduiGui/egg_strongbox.git)|
 |四组|郑浩然|[链接](https://github.com/zhr13833510179/preject)|[链接](https://github.com/zhr13833510179/project_fist)
 |部长|丁凯、王浩|[链接](https://github.com/ding139725/First_project.git)|[链接](https://github.com/ding139725/First_egg.git)|
+
