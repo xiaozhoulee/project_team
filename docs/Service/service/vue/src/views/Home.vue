@@ -9,20 +9,8 @@
 <style>
 
 </style>
-<script src="./static/jquery-1.12.4.js"></script>
 <script>
-// var xiugai = document.getElementsByClassName("xiugai")[0]
-// var gk = document.getElementsByClassName("gk")[0]
-// xiugai.click = function(){
-//   gk.style.cssText='display:block;'
-// }
-// $(".xiugai").click(function(){
-//   $(".gk").css("display","block")
-// })
 import axios from 'axios'
-
-// import { create } from 'domain';
-
   export default {
     data() {
       return {

@@ -2,7 +2,6 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">学生管理</router-link> |
-      <router-link to="/about">班级管理</router-link>
     </div>
     <router-view/>
   </div>
