@@ -1,7 +1,6 @@
 <template>
   <div>
     <form action @submit="insertClazz">
-      <!-- <el-input v-model="clazzname" placeholder="请输入内容"></el-input> -->
       <el-button type="primary" @click="insertclazz = true">添加</el-button>
     </form>
     <el-table :data="clazzList" style="width: 100%">
@@ -23,10 +22,7 @@
       <el-table-column label="操作">
         <template slot-scope="scope">
           <el-button size="mini" @click="editData(scope.row.id)">编辑</el-button>
-          <!-- dialogFormVisible = true -->
           <el-button size="mini" type="danger" @click="delClazz(scope.row.id)">删除</el-button>
-          <!-- <el-button type="dager" @click="dialogVisible = true" size="mini">删除</el-button> -->
-          <!-- delClazz(scope.row.id) -->
         </template>
       </el-table-column>
     </el-table>
@@ -62,7 +58,6 @@ import axios from "axios";
 export default {
   data() {
     return {
-      // temp: false,
       editDataId:"",
       dialogVisible: false,
       putclazzname: "",
@@ -97,10 +92,6 @@ export default {
         center: true
       })
         .then(() => {
-          // this.$message({
-          //   type: 'success',
-          //   message: '删除成功!'
-          // });
           axios
             .delete("http://127.0.0.1:7001/deleteclazz" + id, {})
             .then(res => {
@@ -134,7 +125,7 @@ export default {
         .then(res => {
           this.insertclazz = false
           this.clazzname = ""
-          this.getclazzList(); //重新执行getclazzList函数 重新获取clazzList列表
+          this.getclazzList();
           console.log(res.data);
           this.clazzList = res.data;
         });
@@ -152,15 +143,6 @@ export default {
         });
     }
   },
-  // getclazzList(){
-  //   axios.get("http://127.0.0.1:7001/",{
-
-  //   })
-  //   .then(res =>{
-  //       console.log(res.data)
-  //       this.clazzList = res.data
-  //   })
-  // },
   created() {
     this.getclazzList();
   }

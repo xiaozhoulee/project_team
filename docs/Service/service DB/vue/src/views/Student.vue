@@ -3,12 +3,12 @@
     <el-dialog title :visible.sync="insertstudent">
       <el-form :model="form">
         <el-form-item label="学生名称" :label-width="formLabelWidth">
-      <el-input v-model="studentname" placeholder="请输入学生姓名"></el-input>
+          <el-input v-model="studentname" placeholder="请输入学生姓名"></el-input>
         </el-form-item>
         <el-form-item label="学生班级" :label-width="formLabelWidth">
-      <el-select v-model="clazz_id" placeholder="请选择班级">
-        <el-option v-for="item in clazzList" :label="item.name" :value="item.id"></el-option>
-      </el-select>
+          <el-select v-model="clazz_id" placeholder="请选择班级">
+            <el-option v-for="item in clazzList" :label="item.name" :value="item.id"></el-option>
+          </el-select>
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
@@ -48,19 +48,6 @@
           <el-button size="mini" @click="put(scope.row.id)">编辑</el-button>
 
           <el-button size="mini" type="danger" @click="open(scope.row.id)">删除</el-button>
-          <!-- <el-button type="dager" @click="dialogVisible = true" size="mini">删除</el-button> -->
-          <!-- delClazz(scope.row.id) -->
-          <!-- <el-dialog
-            title="提示"
-            :visible.sync="dialogVisible"
-            width="30%"
-            :before-close="handleClose">
-            <span>确定要删除此班级吗？</span>
-            <span slot="footer" class="dialog-footer">
-              <el-button @click="dialogVisible = false">取 消</el-button>
-              <el-button type="primary" @click="delstudent(scope.row.id)">确 定</el-button>
-            </span>
-          </el-dialog>-->
         </template>
       </el-table-column>
     </el-table>
@@ -126,10 +113,6 @@ export default {
         center: true
       })
         .then(() => {
-          // this.$message({
-          //   type: 'success',
-          //   message: '删除成功!'
-          // });
           axios
             .delete("http://127.0.0.1:7001/deletestudent" + id, {})
             .then(res => {
@@ -187,8 +170,6 @@ export default {
           clazz_id: this.clazz_id
         })
         .then(res => {
-          // this.dialogVisible =false,
-          // this.dialogTableVisible = false,
           (this.dialogFormVisible = false), this.getstudentList();
           console.log(res.data);
           this.studentList = res.data;
