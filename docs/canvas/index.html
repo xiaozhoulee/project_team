@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .canvas_box{
+            position: relative;
+        }
+        canvas{
+            border:1px solid #aaa;
+            position: absolute;
+            top:0px;
+            left:0px;
+        }
+        .images img{
+            width:50px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="canvas_box">
+        <canvas width="1000" height="500"></canvas>
+    </div>
+    <div class="message">
+        操作：
+    </div>
+    <div class="images">
+        <img src="0.jpg" alt="">
+        <img src="1.jpg" alt="">
+        <img src="2.jpg" alt="">
+        <img src="3.jpg" alt="">
+        <img src="4.jpg" alt="">
+    </div>
+    <script src="jquery.js"></script>
+    <script> 
+        let canvas = document.querySelector("canvas");
+        let context = canvas.getContext("2d");
+        $(canvas).css({
+            "background-image":"URL(0.jpg)",
+            "background-size":"100% 100%"
+        })
+        $(".images img").click(function(){
+            let x = $(this).index() * 150;
+            let y = $(this).index() * 50;
+            let img = new Image();
+            img.src = this.src;
+            img.onload = function(){
+                context.drawImage(this, 0, 0, 650, 420, x, y, 325, 210)
+            }
+        })
+    </script>
+</body>
+</html>

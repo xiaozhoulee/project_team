@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        canvas {
+            border: 1px solid red;
+            background-image: url(0.jpg);
+        }
+    </style>
+</head>
+
+<body>
+    <canvas width="500" height="300"></canvas>
+    <button class="copy">复制画布</button>
+    <button class="paster">粘贴画布</button>
+    <script>
+        let cv = document.querySelector("canvas");
+        let ct = cv.getContext("2d");
+        let img1 = new Image();
+        img1.src = "1.jpg"
+        img1.onload = function () {
+            ct.drawImage(this, 0, 0, 650, 420, 0, 0, 325, 210)
+        }
+
+        let img2 = new Image();
+        img2.src = "2.jpg"
+        img2.onload = function () {
+            ct.drawImage(this, 0, 0, 650, 420, 100, 100, 325, 210)
+        }
+
+        cv.onmousedown = function (e) {
+            // console.log(e.clientX)
+            // console.log(e.clientY)
+            ct.clearRect(e.clientX - 50, e.clientY - 25, 100, 50)
+        }
+        var imgData;
+        var width = ct.canvas.width;
+        var height = ct.canvas.height;
+        document.querySelector(".copy").onclick = function () {
+            imgData = ct.getImageData(0, 0, width, height);
+            console.log(imgData)
+        }
+        document.querySelector(".paster").onclick = function () {
+            ct.putImageData(imgData, 0, 0);
+        }
+    </script>
+</body>
+
+</html>

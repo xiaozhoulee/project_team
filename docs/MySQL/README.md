@@ -26,6 +26,9 @@
 ``` bash
 # 可以不适用反引号
 CREATE DATABASE db_name DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; 
+
+# 修改root用户密码
+set password for root@localhost = password('123456'); 
 ```
 
 ### 创建班级表
