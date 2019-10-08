@@ -49,21 +49,36 @@
 
 ### 部长职责规划
 
-#### 丁凯
+#### A组刘轩睿
 
-1. 设备管理
-2. 郑浩然组、张天庆组的个人笔记检查。
-3. 郑浩然组、张天庆组小组项目的检查
+1. 设备 纪律管理
+2. Java文档的检查
+3. 规章制度管理
+
+<!-- 3. 郑浩然组、张天庆组小组项目的检查
 4. 郑浩然组、张天庆组纪律管控
-5. 郑浩然、张天庆技术问题指导
+5. 郑浩然、张天庆技术问题指导 -->
 
-#### 王浩：
+#### B组王子健：
 
-1. 规章制度管理
-2. 王春鑫组、廖烽组的个人笔记检查
-3. 王春鑫组、廖烽组小组项目的检查
-4. 王春鑫组、廖烽组纪律管控
-5. 王春鑫、廖烽技术问题指导
+1. 招生管理系统的开发
+2. 分配个人任务
+3. 对招生管理系统的问题指导
+4. B组的纪律管控
+
+#### C组马胜秦：
+
+1. 考试系统
+2. 分配个人任务
+3. 对考试系统的问题指导
+4. C组的纪律管控
+
+#### D组王子健：
+
+1. 学习组的纪律把控
+2. 学习指导
+3. 分享学习资料
+
 
 #### 各组组长
 
@@ -92,7 +107,7 @@
 |13|[王崇昂](https://github.com/wang-xian-sheng/BJ_wca.git)|
 |14|[张天庆](https://github.com/WenduiGui/22daoti)|
 |15|[杨磊](https://github.com/yanglei0001/project_team-Lei)|
-|16|[刘轩睿](https://github.com/Yan-Yan0129/XMB-demo.git)|
+|16|[刘轩睿](https://github.com/Yan-Yan0129/Note.git)|
 |17|[王芷烽](https://github.com/2073252416/Wang-Zhifeng-s-Learning-Documents/tree/master)|
 |18|[周昕壮](https://github.com/xinXinZKA/xX_project)|
 |19|[贾海港](https://github.com/HGjia02/jia.storehouse.git)|
